@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Distraction Free Gmail",
+  "version": "0.1.0",
+  "description": "Make it easier to focus while working in Gmail.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://mail.google.com/*"]
+  }]
+
+}
